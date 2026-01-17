@@ -1,0 +1,350 @@
+====================================================================================================
+FINAL STRATEGY - COMPREHENSIVE BACKTEST
+====================================================================================================
+✅ Loaded config from: comprehensive_backtest_config.json
+
+Test Matrix:
+  Symbols: ETH/USDT, BTC/USDT, BNB/USDT
+  Timeframes: 15m, 1h
+  Years: 2019, 2020, 2021, 2022, 2023, 2024
+  Leverages: 3.0x, 5.0x
+  Initial Capital: $10,000
+
+ICT Parameters:
+  FVG: gap=0.0005, lookback=40
+  OB: swing=5, volume=40
+  Sweep: lookback=15, threshold=0.0005
+
+====================================================================================================
+RUNNING 72 BACKTESTS
+====================================================================================================
+
+
+[1/72] ETH/USDT 15m 2019 3x
+  Fetching ETH/USDT 15m data... 35000 candles
+  ✅ 240 trades | Sharpe 0.24 | Return +0.0% | WR 37.5%
+
+[2/72] ETH/USDT 15m 2019 5x
+  Fetching ETH/USDT 15m data... 35000 candles
+  ✅ 240 trades | Sharpe 0.37 | Return +0.0% | WR 37.5%
+
+[3/72] ETH/USDT 15m 2020 3x
+  Fetching ETH/USDT 15m data... 36000 candles
+  ✅ 252 trades | Sharpe 0.75 | Return +13.3% | WR 38.9%
+
+[4/72] ETH/USDT 15m 2020 5x
+  Fetching ETH/USDT 15m data... 36000 candles
+  ✅ 252 trades | Sharpe 1.16 | Return +21.7% | WR 38.9%
+
+[5/72] ETH/USDT 15m 2021 3x
+  Fetching ETH/USDT 15m data... 35000 candles
+  ✅ 249 trades | Sharpe 1.49 | Return +5.1% | WR 35.7%
+
+[6/72] ETH/USDT 15m 2021 5x
+  Fetching ETH/USDT 15m data... 35000 candles
+  ✅ 249 trades | Sharpe 2.38 | Return +7.3% | WR 35.7%
+
+[7/72] ETH/USDT 15m 2022 3x
+  Fetching ETH/USDT 15m data... 36000 candles
+  ✅ 252 trades | Sharpe 0.24 | Return +0.0% | WR 35.7%
+
+[8/72] ETH/USDT 15m 2022 5x
+  Fetching ETH/USDT 15m data... 36000 candles
+  ✅ 252 trades | Sharpe 0.47 | Return +0.0% | WR 35.7%
+
+[9/72] ETH/USDT 15m 2023 3x
+  Fetching ETH/USDT 15m data... 36000 candles
+  ✅ 157 trades | Sharpe 0.10 | Return -4.7% | WR 35.0%
+
+[10/72] ETH/USDT 15m 2023 5x
+  Fetching ETH/USDT 15m data... 36000 candles
+  ✅ 157 trades | Sharpe 0.23 | Return -8.2% | WR 35.0%
+
+[11/72] ETH/USDT 15m 2024 3x
+  Fetching ETH/USDT 15m data... 36000 candles
+  ✅ 220 trades | Sharpe 0.76 | Return +21.5% | WR 41.8%
+
+[12/72] ETH/USDT 15m 2024 5x
+  Fetching ETH/USDT 15m data... 36000 candles
+  ✅ 220 trades | Sharpe 1.15 | Return +37.1% | WR 41.8%
+
+[13/72] ETH/USDT 1h 2019 3x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 59 trades | Sharpe 0.37 | Return +7.8% | WR 42.4%
+
+[14/72] ETH/USDT 1h 2019 5x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 59 trades | Sharpe 0.43 | Return +13.0% | WR 42.4%
+
+[15/72] ETH/USDT 1h 2020 3x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 56 trades | Sharpe 0.45 | Return +7.6% | WR 42.9%
+
+[16/72] ETH/USDT 1h 2020 5x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 56 trades | Sharpe 0.70 | Return +12.7% | WR 42.9%
+
+[17/72] ETH/USDT 1h 2021 3x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 34 trades | Sharpe -0.05 | Return -6.1% | WR 26.5%
+
+[18/72] ETH/USDT 1h 2021 5x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 34 trades | Sharpe 0.03 | Return -10.1% | WR 26.5%
+
+[19/72] ETH/USDT 1h 2022 3x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 60 trades | Sharpe 0.10 | Return +0.0% | WR 33.3%
+
+[20/72] ETH/USDT 1h 2022 5x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 60 trades | Sharpe 0.20 | Return +0.0% | WR 33.3%
+
+[21/72] ETH/USDT 1h 2023 3x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 65 trades | Sharpe 0.01 | Return -6.3% | WR 32.3%
+
+[22/72] ETH/USDT 1h 2023 5x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 65 trades | Sharpe 0.11 | Return -10.5% | WR 32.3%
+
+[23/72] ETH/USDT 1h 2024 3x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 60 trades | Sharpe 0.37 | Return +10.9% | WR 45.0%
+
+[24/72] ETH/USDT 1h 2024 5x
+  Fetching ETH/USDT 1h data... 9000 candles
+  ✅ 60 trades | Sharpe 0.49 | Return +18.4% | WR 45.0%
+
+[25/72] BTC/USDT 15m 2019 3x
+  Fetching BTC/USDT 15m data... 35000 candles
+  ✅ 193 trades | Sharpe 0.83 | Return +0.0% | WR 38.9%
+
+[26/72] BTC/USDT 15m 2019 5x
+  Fetching BTC/USDT 15m data... 35000 candles
+  ✅ 193 trades | Sharpe 1.30 | Return +0.0% | WR 38.9%
+
+[27/72] BTC/USDT 15m 2020 3x
+  Fetching BTC/USDT 15m data... 36000 candles
+  ✅ 208 trades | Sharpe 0.44 | Return -1.4% | WR 35.1%
+
+[28/72] BTC/USDT 15m 2020 5x
+  Fetching BTC/USDT 15m data... 36000 candles
+  ✅ 208 trades | Sharpe 0.72 | Return -3.0% | WR 35.1%
+
+[29/72] BTC/USDT 15m 2021 3x
+  Fetching BTC/USDT 15m data... 35000 candles
+  ✅ 248 trades | Sharpe 1.31 | Return +8.8% | WR 37.1%
+
+[30/72] BTC/USDT 15m 2021 5x
+  Fetching BTC/USDT 15m data... 35000 candles
+  ✅ 248 trades | Sharpe 2.08 | Return +13.8% | WR 37.1%
+
+[31/72] BTC/USDT 15m 2022 3x
+  Fetching BTC/USDT 15m data... 36000 candles
+  ✅ 195 trades | Sharpe 0.19 | Return -7.6% | WR 32.8%
+
+[32/72] BTC/USDT 15m 2022 5x
+  Fetching BTC/USDT 15m data... 36000 candles
+  ✅ 195 trades | Sharpe 0.40 | Return -13.0% | WR 32.8%
+
+[33/72] BTC/USDT 15m 2023 3x
+  Fetching BTC/USDT 15m data... 36000 candles
+  ✅ 132 trades | Sharpe 0.21 | Return -1.9% | WR 34.1%
+
+[34/72] BTC/USDT 15m 2023 5x
+  Fetching BTC/USDT 15m data... 36000 candles
+  ✅ 132 trades | Sharpe 0.35 | Return -3.6% | WR 34.1%
+
+[35/72] BTC/USDT 15m 2024 3x
+  Fetching BTC/USDT 15m data... 36000 candles
+  ✅ 186 trades | Sharpe 0.35 | Return +0.0% | WR 33.3%
+
+[36/72] BTC/USDT 15m 2024 5x
+  Fetching BTC/USDT 15m data... 36000 candles
+  ✅ 186 trades | Sharpe 0.59 | Return +0.0% | WR 33.3%
+
+[37/72] BTC/USDT 1h 2019 3x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 58 trades | Sharpe 0.26 | Return +0.0% | WR 39.7%
+
+[38/72] BTC/USDT 1h 2019 5x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 58 trades | Sharpe 0.32 | Return +0.0% | WR 39.7%
+
+[39/72] BTC/USDT 1h 2020 3x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 60 trades | Sharpe 0.08 | Return +0.1% | WR 36.7%
+
+[40/72] BTC/USDT 1h 2020 5x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 60 trades | Sharpe 0.12 | Return -0.1% | WR 36.7%
+
+[41/72] BTC/USDT 1h 2021 3x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 54 trades | Sharpe 0.02 | Return -2.3% | WR 31.5%
+
+[42/72] BTC/USDT 1h 2021 5x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 54 trades | Sharpe 0.08 | Return -4.1% | WR 31.5%
+
+[43/72] BTC/USDT 1h 2022 3x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 61 trades | Sharpe 0.43 | Return +0.0% | WR 45.9%
+
+[44/72] BTC/USDT 1h 2022 5x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 61 trades | Sharpe 0.61 | Return +0.0% | WR 45.9%
+
+[45/72] BTC/USDT 1h 2023 3x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 67 trades | Sharpe 0.31 | Return +5.5% | WR 40.3%
+
+[46/72] BTC/USDT 1h 2023 5x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 67 trades | Sharpe 0.45 | Return +9.0% | WR 40.3%
+
+[47/72] BTC/USDT 1h 2024 3x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 70 trades | Sharpe 0.65 | Return +0.0% | WR 44.3%
+
+[48/72] BTC/USDT 1h 2024 5x
+  Fetching BTC/USDT 1h data... 9000 candles
+  ✅ 70 trades | Sharpe 1.02 | Return +0.0% | WR 44.3%
+
+[49/72] BNB/USDT 15m 2019 3x
+  Fetching BNB/USDT 15m data... 35000 candles
+  ✅ 244 trades | Sharpe 0.93 | Return +0.0% | WR 39.8%
+
+[50/72] BNB/USDT 15m 2019 5x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[51/72] BNB/USDT 15m 2020 3x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[52/72] BNB/USDT 15m 2020 5x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[53/72] BNB/USDT 15m 2021 3x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[54/72] BNB/USDT 15m 2021 5x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[55/72] BNB/USDT 15m 2022 3x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[56/72] BNB/USDT 15m 2022 5x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[57/72] BNB/USDT 15m 2023 3x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[58/72] BNB/USDT 15m 2023 5x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[59/72] BNB/USDT 15m 2024 3x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[60/72] BNB/USDT 15m 2024 5x
+  Fetching BNB/USDT 15m data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[61/72] BNB/USDT 1h 2019 3x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[62/72] BNB/USDT 1h 2019 5x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[63/72] BNB/USDT 1h 2020 3x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[64/72] BNB/USDT 1h 2020 5x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[65/72] BNB/USDT 1h 2021 3x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[66/72] BNB/USDT 1h 2021 5x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[67/72] BNB/USDT 1h 2022 3x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[68/72] BNB/USDT 1h 2022 5x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[69/72] BNB/USDT 1h 2023 3x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[70/72] BNB/USDT 1h 2023 5x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[71/72] BNB/USDT 1h 2024 3x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+[72/72] BNB/USDT 1h 2024 5x
+  Fetching BNB/USDT 1h data... Error: binance GET https://api.binance.com/api/v3/exchangeInfo
+ 0 candles
+
+====================================================================================================
+BACKTEST COMPLETE
+====================================================================================================
+
+Total tests: 49
+Results saved to: FINAL_BACKTEST_RESULTS.json
+
+====================================================================================================
+FINDING BEST CONFIGURATION
+====================================================================================================
+Primary metric: sharpe_ratio
+Min trades: 10
+Min Sharpe: 0.5
+
+Total results: 49
+Valid results (>= 10 trades, Sharpe >= 0.5): 17
+
+🏆 BEST CONFIGURATION:
+====================================================================================================
+Symbol:        ETH/USDT
+Timeframe:     15m
+Year:          2021
+Leverage:      5.0x
+----------------------------------------------------------------------------------------------------
+Sharpe:        2.377
+Return:        +7.28%
+Win Rate:      35.74%
+Profit Factor: 1.03
+Max DD:        40.42%
+Trades:        249
+====================================================================================================
+
+✅ Best settings saved to: best_settings_strategy_params.json
+
+🎉 COMPREHENSIVE BACKTEST COMPLETE!
+
+Files generated:
+  1. FINAL_BACKTEST_RESULTS.json - All backtest results
+  2. best_settings_strategy_params.json - Best configuration for deployment
+
